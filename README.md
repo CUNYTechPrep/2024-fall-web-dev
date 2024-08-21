@@ -1,18 +1,11 @@
-**_CUNY Tech Prep 2022-2023_**
+**_CUNY Tech Prep 2024-2025_**
 
 [CUNY Tech Prep](https://cunytechprep.org/) is a [NYC Tech Talent Pipeline](http://www.techtalentpipeline.nyc/) program designed to provide exceptional Computer Science students in the [CUNY](https://www.cuny.edu/) senior college system with in-demand software development and professional skills.
 
 ---
 
-# Fall 2022 Web Dev/Data Science Track <br />_Class Schedule and Materials_
+# Fall 2024 Web Dev Track
 
-<!-- ## Summer/Winter Prep Work
-
-[Summer Homework](link) -->
-
-
-- Tuesday Class
-- Wednesday Class
-- Thursday Class
-- [Friday 3pm Class](friday-3.md)
-- [Friday 6pm Class](friday-6pm.md)
+- [Wednesday 6pm In-Person Class](wednesday-6-ip.md)
+- [Wednesday 6:30pm Virtual Class](wednesday-630.md)
+- [Friday 6:30pm Virtual Class](friday-630.md)
