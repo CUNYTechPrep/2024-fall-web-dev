@@ -4,13 +4,15 @@
 
 Open up your terminal.
 
-Make sure node and npm are working. Run the following commands:
+Make sure `node` and `npm` are working. Run the following commands:
 
 ```bash
 node --version
 ```
 
-It should display version 16.x (or 18.x).
+It should display version 20.16.x or greater (or 22.x).
+
+> Do NOT use odd versions of Node.js such as 19.x or 21.x
 
 ```bash
 npx --version
@@ -39,26 +41,27 @@ cd ctp
 Now we're going to create our first react app:
 
 ```bash
-npx create-react-app learn-react-1
+npm create vite@latest learn-react-1 -- --template react
 cd learn-react-1
-npm start
+npm install
+npm run dev
 ```
 
-If your browser opened up automatically and you see the spinning logo, then everything is working.
+Open your browser to http://localhost:5173/. If you see the Vite + React page and logos then that means everything is working.
 
 ## Step 3. Look through the code
 
 Open up the `learn-react-1` directory in your code editor.
 
-Let's take a look at `/public/index.html`. Of importance here is `<div id="root"></div>`. This is the container where our React app will be loaded.
+Let's take a look at `/index.html`. Of importance here is `<div id="root"></div>`. This is the container where our React app will be loaded.
 
-Now let's go to the `/src/index.js` and let's delete all of the code in this file. This is the entry point to our React app. No need to worry about the rest of the files in src for now. We will eventually delete them all, and create new files ourselves.
+Now let's go to the `/src/main.jsx` and let's delete all of the code in this file. This is the entry point to our React app. No need to worry about the rest of the files in src for now. We will eventually delete them all, and create new files ourselves.
 
 > When you delete all of the code and save the file, what happened in the browser?
 
 ## Step 4. Hello World
 
-In `/src/index.js` add the following code:
+In `/src/main.jsx` add the following code:
 
 ```JSX
 import React from "react";
@@ -73,17 +76,13 @@ root.render(<h1>Hello World!</h1>)
 Let's break this code down.
 
 - import statements
-- `root = ReactDOM.createRoot(htmlDOMContainer)`
+- `root = ReactDOM.createRoot(htmlContainer)`
 - `root.render(reactElement)`
 - JSX `<h1>Hello World!</h1>`
 
 > This is not HTML, it is JSX.
 
 Try to change the JSX, add some other tags. Try the following examples and observe the results.
-
-```JSX
-<H1>Hello World!</H1>
-```
 
 ```JSX
 <div>
@@ -95,7 +94,7 @@ Try to change the JSX, add some other tags. Try the following examples and obser
 ```JSX
 <div>
   <h1>Hello World!
-  <h1>Hi Again</h1>
+  <h1>Hi Again<h1>
 </div>
 ```
 
@@ -111,6 +110,20 @@ Try to change the JSX, add some other tags. Try the following examples and obser
 </>
 ```
 
+```JSX
+<H1>Hello World!</H1>
+```
+
+> This last example will require that you open up your Browser Devtools and check the Console.
+
+> _NOTE_: React may show errors in one or more of the following areas
+>
+> 1. the browser window
+> 2. the terminal (during development)
+> 3. the browser developer tools console
+>
+> We recommend checking all 3 for warnings and errors during development.
+
 - all standard HTML tags are available in lowercase version
 - can nest multiple components
 - all tags must be closed
@@ -119,7 +132,7 @@ Try to change the JSX, add some other tags. Try the following examples and obser
 
 ## Step 5. Functional Components
 
-The point of a component based system is to create reusable componenets. Let's make the following changes to our code:
+The point of a component based system is to create reusable components. Let's make the following changes to our code:
 
 ```JSX
 import React from "react";
@@ -143,7 +156,7 @@ What did we just do?
 
 - components should begin with capital letters
 - notice the `( )` in the return
-- Try `<ClassList></ClassList>`, did it work?
+- In the `render()` call, try `<ClassList></ClassList>`, did it work?
 - is `<ClassList>` a standard HTML tag?
 
 We can and should create many small components, that we put together. Let's make the following changes:
@@ -234,17 +247,17 @@ function ClassList() {
 - `{  }` allows us to embed javascript within JSX
 - `props` are always passed to components
 - `props` are immutable, what does that mean?
-- try changing `props.name = "Jose"`, what happens?
+- try changing `props.firstName = "Jose"`, what happens?
 - props can be destructured in a component
   - `function StudentInfo({ firstName, lastName, sId, school, major }) {`
 
 ## Step 7. Rendering a list of students from a data array
 
-When we render components in React, we usually get the data from an api or some other data source. We can use iterate over data lists with `.map()` to render each component.
+When we render components in React, we usually get the data from an api or some other data source. We can iterate over data lists with `.map()` to render each component.
 
-Add the following data to your index.js file.
+Add the following data to the top of your `main.jsx` file.
 
-```
+```js
 const studentList = [
   {
     firstName: "Misty",
@@ -302,8 +315,9 @@ function ClassList() {
 ...
 ```
 
-- we can destructure objects `{...student}` to pass them as props (keys and prop-names must match)
-- when rendering lists of components we must provide unique keys
+- we can destructure objects `{...student}` to pass them as props (_Note:_ keys and prop-names must match)
+- when rendering lists of components we must provide unique keys (_Note:_ don't use the array index as a key)
+- without a unique key your list will not render correctly the data array changes (such as when sorting/filtering arrays)
 
 ## Step 8. HTML Attributes like `<div class="red">` and adding CSS
 
@@ -321,7 +335,7 @@ in `/src/index.css` add the following to the bottom of the file:
 }
 ```
 
-in `/src/index.js` add the following below your import statements:
+in `/src/main.jsx` add the following below your import statements:
 
 ```JSX
 import './index.css'
@@ -371,7 +385,7 @@ In regular HTML, we can use the attribute `<div onclick="...">` to run some java
 
 - notice the camel casing of standard html attributes `className`, `onClick` in react
 - onClick receives a function (callback) that will run in response to the event
-- what happens if you change it to just `onClick={ alert('The button was pressed!') }`
+- what happens if you change it to just `onClick={ alert('The button was pressed!') }`?
 - `onClick` works with other html tags, such as img, div, h1, etc.
 - `e` stands for event, it contains information about the user event, such as which mouse button was used to click.
 
@@ -410,4 +424,4 @@ In this example we initialize and access state by calling the `useState` hook an
   - `const [currentValue, setValueFunction] = useState(initialValue)`
 - `handleClick` is our own function. We can call it anything we like.
 - state can only be updated with the setValueFunction provided by the hook
-- `numClicks = 42` will not work as expected, try this.
+- `numClicks = 42` will not work as expected, try this out.
