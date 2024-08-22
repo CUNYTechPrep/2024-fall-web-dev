@@ -38,7 +38,7 @@ cd ctp
 
 > you only have to `mkdir ctp` if this directory doesn't already exist
 
-Now we're going to create our first react app:
+Now we're going to create our first React app:
 
 ```bash
 npm create vite@latest learn-react-1 -- --template react
@@ -55,7 +55,7 @@ Open up the `learn-react-1` directory in your code editor.
 
 Let's take a look at `/index.html`. Of importance here is `<div id="root"></div>`. This is the container where our React app will be loaded.
 
-Now let's go to the `/src/main.jsx` and let's delete all of the code in this file. This is the entry point to our React app. No need to worry about the rest of the files in src for now. We will eventually delete them all, and create new files ourselves.
+Now let's go to the `/src/main.jsx` and let's delete all of the code in this file. This is the entry point to our React app. No need to worry about the other files in src for now. We wont use them in this lab.
 
 > When you delete all of the code and save the file, what happened in the browser?
 
@@ -198,11 +198,11 @@ function ClassList() {
 ...
 ```
 
-- Try adding multiple `StudentInfo` tags in the ClassList component. What happens?
+- try adding multiple `StudentInfo` tags in the ClassList component, what happens?
 
 ## Step 6. Props and embedding JavaScript in JSX
 
-A component like StudentInfo is a lot more useful if we can dynamically change its content. We will do that now:
+A component like `StudentInfo` is a lot more useful if we can dynamically change its content. Let's do that now:
 
 ```JSX
 ...
@@ -243,7 +243,7 @@ function ClassList() {
 ...
 ```
 
-- add different names to the last two `StudentInfo` tags
+- try adding different names to the last two `StudentInfo` tags
 - `{  }` allows us to embed javascript within JSX
 - `props` are always passed to components
 - `props` are immutable, what does that mean?
@@ -253,9 +253,9 @@ function ClassList() {
 
 ## Step 7. Rendering a list of students from a data array
 
-When we render components in React, we usually get the data from an api or some other data source. We can iterate over data lists with `.map()` to render each component.
+When we render components in React, we usually get the data from an API or some other data source. We can iterate over data lists with `.map()` to render each component.
 
-Add the following data to the top of your `main.jsx` file.
+Add the following data to the top of your `/src/main.jsx` file.
 
 ```js
 const studentList = [
@@ -297,7 +297,7 @@ const studentList = [
 ];
 ```
 
-Now modify your ClassList component to this:
+Now modify your `ClassList` component to this:
 
 ```JSX
 ...
@@ -381,10 +381,10 @@ function CountApp() {
 root.render(<CountApp />);
 ```
 
-In regular HTML, we can use the attribute `<div onclick="...">` to run some javascript event handling code. In react we will use the `onClick` prop instead.
+In regular HTML, we can use the attribute `<div onclick="...">` to run some javascript event handling code. In React we will use the `onClick` prop instead.
 
-- notice the camel casing of standard html attributes `className`, `onClick` in react
-- onClick receives a function (callback) that will run in response to the event
+- notice the camel casing of standard html attributes such as `className` and `onClick` in React
+- `onClick` receives a function (_callback_) that will run in response to the event
 - what happens if you change it to just `onClick={ alert('The button was pressed!') }`?
 - `onClick` works with other html tags, such as img, div, h1, etc.
 - `e` stands for event, it contains information about the user event, such as which mouse button was used to click.
@@ -393,7 +393,7 @@ In regular HTML, we can use the attribute `<div onclick="...">` to run some java
 
 Now that we can handle the events like a button being clicked, we want to keep track of how many times the user has clicked the button.
 
-Props are immutable (read-only) so we cannot use them to do that. So now we introduce another core react object that **is mutable, `state`**.
+Props are immutable (read-only) so we cannot use them to do that. So now we introduce another core React object that **is mutable, `state`**.
 
 ```JSX
 // Update your import to this
@@ -419,9 +419,9 @@ function CountApp() {
 
 In this example we initialize and access state by calling the `useState` hook and we update the state in the `handleClick` function.
 
-- We can continue to use props if needed.
+- we can continue to use props if needed
 - the useState hook always returns an array of two things
   - `const [currentValue, setValueFunction] = useState(initialValue)`
-- `handleClick` is our own function. We can call it anything we like.
-- state can only be updated with the setValueFunction provided by the hook
-- `numClicks = 42` will not work as expected, try this out.
+- `handleClick` is our own function, we can name it anything we like
+- the created **state** can only be updated with its own `setValueFunction` provided by the hook
+  - try replacing `setNumClicks(numClicks + 1);` with `numClicks += 1;` in the `handleClick` function, what happens?
