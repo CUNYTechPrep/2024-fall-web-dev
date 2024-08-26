@@ -1,6 +1,6 @@
 # Fall 2024 Web Dev Track <br />_Class Schedule and Materials_
 
-## Week 01 (Aug 30)
+## Week 01 (Aug 28)
 
 Lecture Slides (_coming soon_)
 
@@ -23,7 +23,7 @@ Assignments:
   - Formed teams due in Week 2 class
 - Complete and submit the Bootstrap Lab by Week 2
 
-## Week 02 (Sept 06)
+## Week 02 (Sept 04)
 
 Topics:
 
@@ -33,7 +33,7 @@ Assignments:
 
 Teams should submit a team project proposal by start of Week 3 class
 
-## Week 03 (Sept 13)
+## Week 03 (Sept 11)
 
 Topics:
 
@@ -42,14 +42,14 @@ Topics:
 - `fetch(...)`, Promises, and fetching in React
 - More React
 
-## Week 04 (Sept 20)
+## Week 04 (Sept 18)
 
 Topics:
 
 - Career Coach Workshop: TBA
 - More practice with `fetch()` and React
 
-## Week 05 (Sept 27)
+## Week 05 (Sept 25)
 
 Topics:
 
@@ -65,7 +65,7 @@ Topics:
 
 - No CTP classes scheduled this week
 
-## Week 06 (Oct 11)
+## Week 06 (Oct 9)
 
 Topics:
 
@@ -73,14 +73,14 @@ Topics:
 - Design Documents
 - more Express.js
 
-## Week 07 (Oct 18)
+## Week 07 (Oct 16)
 
 Topics:
 
 - MVC (_Models-Views-Controllers_) Project Structure
 - Project Starter setup and walkthrough
 
-## Week 08 (Oct 25)
+## Week 08 (Oct 23)
 
 Topics:
 
@@ -89,7 +89,7 @@ Topics:
 - Using Sequelize.js
 - Testing (Jest)
 
-## Week 09 (Nov 1)
+## Week 09 (Oct 30)
 
 Topics:
 
@@ -99,7 +99,7 @@ Topics:
   - Passport.js
   - Bcrypt
 
-## Week 10 (Nov 08)
+## Week 10 (Nov 06)
 
 Topics:
 
@@ -107,7 +107,7 @@ Topics:
 - Software Engineering Best Practices
 - [Resource link](http://web.mit.edu/6.005/www/fa16/classes/04-code-review/)
 
-## Week 11 (Nov 15)
+## Week 11 (Nov 13)
 
 Topics:
 
@@ -115,7 +115,7 @@ Topics:
 - Deploying the project starter
 - _Lab Time: Work on Projects_
 
-## Week 12 (Nov 22)
+## Week 12 (Nov 20)
 
 Topics:
 
@@ -126,7 +126,7 @@ Topics:
 - No CTP classes scheduled this week
 - Enjoy Thanksgiving Break
 
-## Week 13 (Dec 06)
+## Week 13 (Dec 04)
 
 Topics:
 
