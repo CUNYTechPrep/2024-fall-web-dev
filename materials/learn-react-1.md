@@ -10,7 +10,7 @@ Make sure `node` and `npm` are working. Run the following commands:
 node --version
 ```
 
-It should display version 20.16.x or greater (or 22.x).
+It should display version 20.16.x or newer (or 22.x).
 
 > Do NOT use odd versions of Node.js such as 19.x or 21.x
 
@@ -22,9 +22,9 @@ Any version means it is installed.
 
 > Note: `npm` and `npx` are installed by Node.js
 
-If these are not installed install the latest version of node.
+If these are not installed, install the latest version of node.
 
-- https://github.com/CUNYTechPrep/guides#development-environment-setup
+- [Development Environment Setup Guide](./dev-setup.md)
 
 ## Step 2. Create and Launch a React project
 
