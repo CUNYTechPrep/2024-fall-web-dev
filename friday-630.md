@@ -2,7 +2,7 @@
 
 ## Week 01 (Aug 30)
 
-Lecture Slides (_coming soon_)
+[Lecture Slides](https://docs.google.com/presentation/d/1nbIS5Tmcctb_G_aMQ6ZzlhUA29SIWgzSD0z7zbA9Mbk/edit#slide=id.p)
 
 [Bootstrap Lab](https://github.com/CUNYTechPrep/lab-bootstrap-5.2)
 
