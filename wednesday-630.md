@@ -8,10 +8,10 @@ Lecture Slides (_coming soon_)
 
 Topics:
 
-- Semester Overview
-- Designing Web Apps
-- Review: HTML & CSS
-- Lab Bootstrap 5.2
+- [Semester Overview](https://docs.google.com/presentation/d/1p2ViVTMK-ISlmAnqQbL6bnvPAUyitXJD/edit?usp=sharing&ouid=103158384177618401609&rtpof=true&sd=true)
+- [Designing Web Apps](https://docs.google.com/presentation/d/1IJGYBBABEUh91Fwjf3d1hi2QnSDB9J5D/edit?usp=sharing&ouid=103158384177618401609&rtpof=true&sd=true)
+- [Review: HTML & CSS](https://docs.google.com/presentation/d/1OP9YI61xlxq5f2tXAntKr-gpPd742zKf/edit?usp=sharing&ouid=103158384177618401609&rtpof=true&sd=true)
+- [Lab Bootstrap 5.2](https://docs.google.com/presentation/d/1mGgCZWFnBYfagEy624TpUYbab_aT8dSz/edit?usp=sharing&ouid=103158384177618401609&rtpof=true&sd=true)
 
 Assignments:
 
