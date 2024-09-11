@@ -27,11 +27,12 @@ Assignments:
 
 Topics:
 
-- React Intro
+- [React Intro](https://docs.google.com/presentation/d/1bY37kUd1t6q40GPzCeqX8lDPsHbDXtc6/edit?usp=sharing&ouid=103158384177618401609&rtpof=true&sd=true)
 
 Assignments:
 
 Teams should submit a team project proposal by start of Week 3 class
+
 
 ## Week 03 (Sept 11)
 
