@@ -27,7 +27,7 @@ Assignments:
 
 Topics:
 
-- React Intro
+- [React Intro](https://docs.google.com/presentation/d/1E86rjR-9hN4NeSkAI5njg8fWuWDmLLgbyBA3lEiGHM0/edit#slide=id.p)
 
 Assignments:
 
@@ -37,9 +37,9 @@ Teams should submit a team project proposal by start of Week 3 class
 
 Topics:
 
-- URL's & HTTP
+- [URL's & HTTP](https://docs.google.com/presentation/d/1hJgCCh3UiygFQ6q8_G7_KCn332rGuo6VPHlM49JM4Ao/edit#slide=id.p)
   - Understanding Client-Server Communication and HTTP Request-Response
-- `fetch(...)`, Promises, and fetching in React
+- [`fetch(...)`, Promises, and fetching in React](https://docs.google.com/presentation/d/1ctGUH2sYpqDjo268t_nL0A3u1t6tzAqwk-mw5WIxwnM/edit#slide=id.p)
 - More React
 
 ## Week 04 (Sept 20)
