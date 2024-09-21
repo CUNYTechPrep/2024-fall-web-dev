@@ -42,6 +42,10 @@ Topics:
 - [`fetch(...)`, Promises, and fetching in React](https://docs.google.com/presentation/d/1ctGUH2sYpqDjo268t_nL0A3u1t6tzAqwk-mw5WIxwnM/edit#slide=id.p)
 - More React
 
+Assignments:
+- [React Trivia Lab](https://github.com/CUNYTechPrep/lab-react-trivia)
+- [React Zip Search Lab](https://github.com/CUNYTechPrep/lab-react-zip-search)
+
 ## Week 04 (Sept 20)
 
 Topics:
