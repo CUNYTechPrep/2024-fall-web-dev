@@ -38,29 +38,25 @@ Teams should submit a team project proposal by start of Week 3 class
 
 Topics:
 
-- URL's & HTTP
+- [URL's & HTTP](https://docs.google.com/presentation/d/1I35K6h8TgFFRBGKyMEhmHzDKtgcnUhlX9EhCTal5pKE/edit?usp=sharing)
   - Understanding Client-Server Communication and HTTP Request-Response
-- `fetch(...)`, Promises, and fetching in React
-- More React
+- [`fetch(...)`, Promises, and fetching in React](https://docs.google.com/presentation/d/1hHMM91OriVQH8FydmqHchmiT8zFA-LkRCW0z7SKIsgM/edit?usp=sharing)
 
 ## Week 04 (Sept 18)
 
 Topics:
 
-- Career Coach Workshop: TBA
-- More practice with `fetch()` and React
+- Career Coach Workshop
+- Project Development
+  - [Team Collaboration](https://docs.google.com/presentation/d/1gLWXxtnOo3T6u1e3Axi1pXkUD58WeDzcvvG_C6hYnjY/edit?usp=sharing)
+  - [Working On A Team](https://docs.google.com/presentation/d/1sXnVS_ks__xHLJrEeBRtSc0BHlegtpqgblRvIfJC24c/edit?usp=sharing)
 
 ## Week 05 (Sept 25)
 
 Topics:
 
-- Fullstack Overview: Frontend vs Backend
-- About `npm` & Building a backend with Express.js
-  - Routing
-  - Route Parameters
-  - Query Parameters
-  - Body Parameters
-- RESTful Routing
+- [Fullstack Overview: Frontend](https://docs.google.com/presentation/d/1JC_lCx5li1hQpQDKS4tRnI05J-Fl4kk-1U5kbFDnKtw/edit?usp=sharing)
+- [Intro to API](https://docs.google.com/presentation/d/1OUOyFZ_rCOUVWa0_gtx4913xYldxFdUq2fp-gilUxDE/edit?usp=sharing)
 
 ## NO CLASS (Sept 30 - Oct 4)
 
@@ -70,14 +66,22 @@ Topics:
 
 Topics:
 
-- SDLC (software development lifecycle)
-- Design Documents
-- more Express.js
+- [Fullstack Overview: Backend](https://docs.google.com/presentation/d/1CB0amE2fyxkYgOcX3OEaq8tj7iBLsmcBD-8-hZLTbBU/edit?usp=sharing)
+- [About `npm` & node](https://docs.google.com/presentation/d/1Ui6FEzuqfsC917brGmACd3H1GjyJful4Z-N4sF0SiKU/edit?usp=sharing)
+- [Building a backend with Express.js](https://docs.google.com/presentation/d/1hbzazAp4Wtz8llxeRs3fDwXRbdDgdn32czmQWbqE1tQ/edit?usp=sharing)
+  - Routing
+  - Route Parameters
+  - Query Parameters
+  - Body Parameters
+
+
 
 ## Week 07 (Oct 16)
 
 Topics:
-
+- SDLC (software development lifecycle)
+- Design Documents
+- more Express.js
 - MVC (_Models-Views-Controllers_) Project Structure
 - Project Starter setup and walkthrough
 
