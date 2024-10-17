@@ -74,26 +74,21 @@ Topics:
   - Query Parameters
   - Body Parameters
 
-
-
 ## Week 07 (Oct 16)
 
 Topics:
-- SDLC (software development lifecycle)
-- Design Documents
-- more Express.js
-- MVC (_Models-Views-Controllers_) Project Structure
-- Project Starter setup and walkthrough
+- [Presentation Tips](https://docs.google.com/presentation/d/1YRuDpXy7di9GBWRPyocvkA1n9GxdCOscXAR66Vvli9g/edit?pli=1#slide=id.p)
+- [Data Data Database](https://docs.google.com/presentation/d/1oyxpzznt0A9xu31JM5-7MWweb_IRw_m-xVpBa_Np_RM/edit?usp=sharing)
+- [Setting up PostgreSQL locally](https://github.com/CUNYTechPrep/project-starter/blob/main/_docs/local-postgresql.md)
+- [Intro to Sequelize](https://github.com/CUNYTechPrep/learn-sequelize)
 
 ## Week 08 (Oct 23)
 
 Topics:
 
-- Databases and Data Modeling
-- ORM's (Sequelize.js)
-- Using Sequelize.js
-- Testing (Jest)
+- Presentation
 
+  
 ## Week 09 (Oct 30)
 
 Topics:
