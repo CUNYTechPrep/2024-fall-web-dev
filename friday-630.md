@@ -53,6 +53,9 @@ Topics:
 - Career Coach Workshop: TBA
 - More practice with `fetch()` and React
 
+Assignments:
+- [React Trivia Lab](https://github.com/CUNYTechPrep/lab-react-trivia)
+
 ## Week 05 (Sept 27)
 
 Topics:
@@ -64,6 +67,9 @@ Topics:
   - Query Parameters
   - Body Parameters
 - RESTful Routing
+
+Assignments:
+- [React Zip Search Lab](https://github.com/CUNYTechPrep/lab-react-zip-search)
 
 ## NO CLASS (Sept 30 - Oct 4)
 
@@ -81,7 +87,7 @@ Topics:
 
 Topics:
 
-- MVC (_Models-Views-Controllers_) Project Structure
+- [MVC (_Models-Views-Controllers_) Project Structure](https://github.com/CUNYTechPrep/2023-fall-web-dev/blob/main/materials/mvc-data-modeling-2022.pdf)
 - Project Starter setup and walkthrough
 
 ## Week 08 (Oct 25)
