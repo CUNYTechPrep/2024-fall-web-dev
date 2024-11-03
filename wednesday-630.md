@@ -86,23 +86,24 @@ Topics:
 
 Topics:
 
-- Presentation
+- [Presentation](https://drive.google.com/file/d/1aN227tFuqr9wQqhZp9xZ8vfgtXxL46q-/view?usp=drive_link)
 
   
 ## Week 09 (Oct 30)
 
 Topics:
+- [Full Stack Overview](https://docs.google.com/presentation/d/1LZsInV5mcEMGNYa4bHXilGVtFbA72u1v1As9v7kXdys/edit?usp=sharing)
 
+
+
+## Week 10 (Nov 06)
+
+Topics:
 - **_Team Project Presentations_**
 - Implementing Authentication (recording)
   - Sessions
   - Passport.js
   - Bcrypt
-
-## Week 10 (Nov 06)
-
-Topics:
-
 - Code Reviews
 - Software Engineering Best Practices
 - [Resource link](http://web.mit.edu/6.005/www/fa16/classes/04-code-review/)
