@@ -104,15 +104,14 @@ Topics:
   - Sessions
   - Passport.js
   - Bcrypt
-- Code Reviews
-- Software Engineering Best Practices
+- [Code Reviews & Software Engineering Best Practices](https://drive.google.com/file/d/1a6N6I3TFzY5OVM1PBQ7TBpycWVXfo7fv/view?usp=sharing)
 - [Resource link](http://web.mit.edu/6.005/www/fa16/classes/04-code-review/)
 
 ## Week 11 (Nov 13)
 
 Topics:
 
-- Career Coach Workshop: TBA
+- Career Coach Workshop
 - Deploying the project starter
 - _Lab Time: Work on Projects_
 
